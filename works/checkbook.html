@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet">
+	<style type="text/css">
+		#div1{
+			width: 200px;
+			height: 100px;
+			display: none;
+			background-color: #66ffcc;
+			border: 1px;
+
+			
+		}
+		.he{
+			width: 200px;
+			height: 100px;
+			background-color: #ffcc66;
+			border: 1px;
+		}
+	</style>
+	
+	<script type="text/javascript">
+		function out(){
+			document.getElementById('div1').style.display='none';
+		}
+		function view(){
+			document.getElementById('div1').style.display='block';
+		}
+	</script>
+
+
+
+</head>
+<body>
+	<div class="he" onmouseover="view()"	onmouseout="out()"  >
+		<input type="checkbox" name="aha"/>
+	</div>
+	<div id="div1">
+		stop your vehicle!
+	</div>
+
+</body>
+</html>
