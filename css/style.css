@@ -9,9 +9,10 @@ body{
 }
 
 .box{
+
 	width: 800px;
 	height: 280px;
-	margin: 50px auto;
+	margin: 100px auto;
 }
 
 .box .link{
@@ -141,4 +142,35 @@ body{
 	width: 2px;
 	right: -2px;
 	top: -150%;
+}
+
+/* 页底啊 */
+.footerWrap{
+	margin-top: 200px;
+	height: 80px;
+}
+.foot-line{
+	height: 2px;
+	background-color: #99a2aa;
+}
+p.fw{
+	text-align: center;
+	line-height: 60px;
+	margin-bottom: -20px;
+	color: #99a2aa;
+}
+p.myinf{
+	font-size: 12px;
+	position: relative;
+	left: 60%;
+	width: 200px;
+	line-height: 20px;
+	color: #99a2aa;
+	margin-bottom: -10px;
+}
+p.beian{
+	color: #99a2aa;
+	position: relative;
+	left: 20%;
+	width: 250px;
 }
